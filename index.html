@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Data Story</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="story-header">
+      <p class="eyebrow">Data Story</p>
+      <h1>Unemployment rate lower for those with a college education</h1>
+      <p class="lede">
+        For adults in the United States aged 25 years and older, unemployment
+        has seen a slight uptick in recent years, but research suggests that the
+        rate of unemployment is higher in those individuals without a college
+        degree. It is more important than ever to obtain a college education as
+        jobs become more complex. However, with the rise of automation and the
+        advent of A.I. one wonders if jobs requiring a college diploma,
+        so-called white-collar jobs, will fall by the wayside as less-skilled,
+        more labor-intensive jobs thrive. In the meantime, it still makes sense
+        to obtain that college degree.
+      </p>
+    </header>
+    <main>
+      <section id="story-frame">
+        <h2>D1 · Story Frame</h2>
+        <p>
+          However, the
+          <a
+            href="https://www.wsj.com/lifestyle/careers/americans-without-college-degrees-are-having-one-of-the-best-job-markets-in-years-5f37d00e"
+            target="_blank"
+            >Wall Street Journal</a
+          >
+          reports that the unemployment rate for young people without a college
+          degree has “rarely been lower” and that the opposite is true for
+          recent college graduates. While this may be true, the numbers still
+          show that the highest unemployment rate comes from those without a
+          college degree. In 2026, the unemployment rate for adult Americans
+          over the age of 25 with a bachelor's degree or higher is 2.8%.
+          Conversely, the unemployment rate of those with just an associate's
+          degree is 3.6%, and it only grows from there. For adults in the United
+          States with just a high school diploma the rate of unemployment in
+          2026 is 4.5%, and higher for those who didn't graduate high school
+          having an unemployment rate at 5.5%.
+        </p>
+      </section>
+      <section id="figures">
+        <h2>D2 · Editorial Figures</h2>
+        <div class="story-grid">
+          <figure>
+            <img
+              src="images/unemployment02.jpg"
+              alt="A homeless man sits outdoors with a sign seeking work for food."
+              width="800"
+              height="450"
+            />
+            <figcaption>
+              <em
+                >Unemployment rate higher for those without a college
+                degree.</em
+              >
+              Pexels/Vitaly Gariev.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/unemployment01.jpg"
+              alt="Person reviewing job listings in a newspaper, holding a pink marker for highlighting job ads."
+              width="800"
+              height="450"
+            />
+            <figcaption>
+              <em>Finding a job more difficult without a college education.</em>
+              Pexels/Ron Lach.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="data-table">
+        <h2>D3 · Accessible Data Table</h2>
+        <div
+          class="table-region"
+          role="region"
+          aria-label="Replace with a specific table label"
+          tabindex="0"
+        >
+          <table>
+            <caption>
+              Comparison of U.S. Unemployement Rates by Education Level,
+              2022-2026
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Unemployement Rate Per Year</th>
+                <th scope="col">2022</th>
+                <th scope="col">2023</th>
+                <th scope="col">2024</th>
+                <th scope="col">2025</th>
+                <th scope="col">2026</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Bachelor's degree and higher (25+)</th>
+                <!--2022-->
+                <td>2.0</td>
+                <!--2023-->
+                <td>2.1</td>
+                <!--2024-->
+                <td>2.3</td>
+                <!--2025-->
+                <td>2.6</td>
+                <!--2026-->
+                <td>2.8</td>
+              </tr>
+              <tr>
+                <th scope="row">Some college or associate degree (25+)</th>
+                <!--2022-->
+                <td>3.2</td>
+                <!--2023-->
+                <td>3.0</td>
+                <!--2024-->
+                <td>3.4</td>
+                <!--2025-->
+                <td>3.4</td>
+                <!--2026-->
+                <td>3.6</td>
+              </tr>
+              <tr>
+                <th scope="row">High School graduates, no college (25+)</th>
+                <!--2022-->
+                <td>4.0</td>
+                <!--2023-->
+                <td>3.9</td>
+                <!--2024-->
+                <td>4.2</td>
+                <!--2025-->
+                <td>4.2</td>
+                <!--2026-->
+                <td>4.5</td>
+              </tr>
+              <tr>
+                <th scope="row">Less than a High School diploma (25+)</th>
+                <!--2022-->
+                <td>5.5</td>
+                <!--2023-->
+                <td>5.6</td>
+                <!--2024-->
+                <td>6.2</td>
+                <!--2025-->
+                <td>6.1</td>
+                <!--2026-->
+                <td>5.5</td>
+              </tr>
+              <tr>
+                <th scope="row">20 years and over (all education levels)</th>
+                <!--2022-->
+                <td>3.4</td>
+                <!--2023-->
+                <td>3.3</td>
+                <!--2024-->
+                <td>3.7</td>
+                <!--2025-->
+                <td>3.9</td>
+                <!--2026-->
+                <td>3.9</td>
+              </tr>
+              <tr>
+                <th scope="row">Total unemployment (16 yrs and older)</th>
+                <!--2022-->
+                <td>3.7</td>
+                <!--2023-->
+                <td>3.6</td>
+                <!--2024-->
+                <td>4.0</td>
+                <!--2025-->
+                <td>4.3</td>
+                <!--2026-->
+                <td>4.3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="source-note">
+          U.S. Bureau of Labor Statistics.
+          <a href="https://data.bls.gov/toppicks?survey=ln" target="_blank"
+            >https://data.bls.gov/toppicks?survey=ln</a
+          >
+        </p>
+      </section>
+      <section id="vector-story">
+        <h2>D4 · Responsive SVG</h2>
+        <svg
+          class="story-graphic"
+          viewBox="0 0 800 400"
+          role="img"
+          aria-labelledby="graphic-title graphic-desc"
+        >
+          <title id="graphic-title">
+            Unemployment Rate for U.S. Adults with and without a College Degree
+            for the years 2024-2026.
+          </title>
+          <desc id="graphic-desc">
+            Unemployment Rate for U.S. Adults with and without a College Degree
+            for 2024-2026.
+          </desc>
+          <rect class="graphic-surface" width="800" height="400" />
+          <circle class="graphic-primary" cx="250" cy="210" r="120" />
+          <circle class="graphic-accent" cx="560" cy="180" r="150" />
+          <rect class="info-box" x="1" y="1" width="250" height="30" />
+          <text
+            x="125"
+            y="20"
+            text-anchor="middle"
+            font-family="Arial"
+            font-size="12"
+          >
+            2026 Unemployment Rate (US) Adults 25+
+          </text>
+          <!--<path class="graphic-line" d="M80 350H720" />-->
+          <text
+            x="250"
+            y="370"
+            text-anchor="middle"
+            font-family="Arial"
+            font-size="24"
+          >
+            3.2%
+          </text>
+          <text
+            x="250"
+            y="220"
+            text-anchor="middle"
+            font-family="Arial"
+            font-size="24"
+          >
+            College Degree
+          </text>
+          <text
+            x="560"
+            y="370"
+            text-anchor="middle"
+            font-family="Arial"
+            font-size="24"
+          >
+            5.0%
+          </text>
+          <text
+            x="560"
+            y="190"
+            text-anchor="middle"
+            font-family="Arial"
+            font-size="24"
+          >
+            No College Degree
+          </text>
+        </svg>
+      </section>
+      <section id="documentation">
+        <h2>D5-D6 · System and Documentation</h2>
+        <p>
+          Extend Module 1 patterns, then link your sources, asset
+          credits/licenses, test record, transformation notes, and AI
+          disclosure.
+        </p>
+        <p>
+          U.S. Bureau of Labor Statistics:
+          <a href="https://data.bls.gov/toppicks?survey=ln" target="_blank"
+            >https://data.bls.gov/</a
+          >
+        </p>
+        <p>
+          Wall Street Journal:
+          <a
+            href="https://www.wsj.com/lifestyle/careers/americans-without-college-degrees-are-having-one-of-the-best-job-markets-in-years-5f37d00e"
+            target="_blank"
+            >https://www.wsj.com/lifestyle/careers/</a
+          >
+        </p>
+        <p>
+          Image 1: Pexels/Vitaly Gariev
+          <a
+            href="https://www.pexels.com/photo/homeless-man-sitting-beside-shopping-cart-with-sign-36763238/"
+            target="_blank"
+            >https://www.pexels.com/photo/</a
+          >
+        </p>
+        <p>
+          Image 2: Pexels/Ron Lach
+          <a
+            href="https://www.pexels.com/photo/view-from-behind-on-woman-reading-newspaper-with-job-postings-9841334/"
+            target="_blank"
+            >https://www.pexels.com/photo/</a
+          >
+        </p>
+        <p>Also noted in <strong>README.txt</strong></p>
+        <div class="tests-highlight">
+          <h2>Tests</h2>
+        </div>
+        <h3>Data-transformation Note</h3>
+        <p>
+          <strong>Calculations:</strong> table values were derived from
+          calculating the average unemployment rate per year. To view data,
+          follow the
+          <a href="https://data.bls.gov/toppicks?survey=ln" target="_blank"
+            >link</a
+          >, then select the categories listed below and click "Retrieve data":
+        </p>
+        <ul>
+          <li>Unemployment Rate</li>
+          <li>Unemployment Rate - 20 Years & Over Men</li>
+          <li>Unemployment Rate - 20 Years & Over Women</li>
+          <li>
+            Unemployment Rate - 25 Years & Over, Less than a High School Diploma
+          </li>
+          <li>
+            Unemployment Rate - 25 Years & Over, High School Graduates No
+            College
+          </li>
+          <li>
+            Unemployment Rate - 25 Years & Over, Some College or Associate
+            Degree
+          </li>
+          <li>
+            Unemployment Rate - 25 Years & Over, Bachelor's Degree and Higher
+          </li>
+        </ul>
+        <h3>Validation</h3>
+        <p><strong>HTML</strong></p>
+        <img
+          src="images/validation-html.jpg"
+          alt="HTML validation screenshot"
+          class="test-val"
+        />
+        <p><strong>CSS</strong></p>
+        <img
+          src="images/validation-css.jpg"
+          alt="CSS validation screenshot"
+          class="test-val"
+        />
+        <h3>320px</h3>
+        <div class="tests-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <img
+                    src="images/320a.jpg"
+                    alt="320 pixel screenshot part a"
+                    class="tests-img"
+                  />
+                </th>
+                <th>
+                  <img
+                    src="images/320b.jpg"
+                    alt="320 pixel screenshot part b"
+                    class="tests-img"
+                  />
+                </th>
+                <th>
+                  <img
+                    src="images/320c.jpg"
+                    alt="320 pixel screenshot part c"
+                    class="tests-img"
+                  />
+                </th>
+                <th>
+                  <img
+                    src="images/320d.jpg"
+                    alt="320 pixel screenshot part d"
+                    class="tests-img"
+                  />
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <h3>768px</h3>
+        <img
+          src="images/768a.jpg"
+          alt="768 pixel screenshot part a"
+          class="tests-768"
+        />
+        <img
+          src="images/768b.jpg"
+          alt="768 pixel screenshot part b"
+          class="tests-768"
+        />
+        <img
+          src="images/768c.jpg"
+          alt="768 pixel screenshot part c"
+          class="tests-768"
+        />
+        <h3>1280px</h3>
+        <img
+          src="images/1280a.jpg"
+          alt="1280 pixel screenshot part a"
+          class="tests-1280"
+        />
+        <img
+          src="images/1280b.jpg"
+          alt="1280 pixel screenshot part b"
+          class="tests-1280"
+        />
+        <img
+          src="images/1280c.jpg"
+          alt="1280 pixel screenshot part c"
+          class="tests-1280"
+        />
+        <h3>200% zoom</h3>
+        <img
+          src="images/200Za.jpg"
+          alt="200 percent zoom screenshot part a"
+          class="tests-200z"
+        />
+        <img
+          src="images/200Zb.jpg"
+          alt="200 percent zoom screenshot part b"
+          class="tests-200z"
+        />
+        <img
+          src="images/200Zc.jpg"
+          alt="200 percent zoom screenshot part c"
+          class="tests-200z"
+        />
+        <img
+          src="images/200Zd.jpg"
+          alt="200 percent zoom screenshot part d"
+          class="tests-200z"
+        />
+        <h3>Responsive SVG with 3 shapes</h3>
+        <img
+          src="images/responsiveSVG-3shapes.png"
+          alt="Responsive SVG with 3 shapes"
+          class="responsiveSVG"
+        />
+        <h3>Module 1 Font Stack</h3>
+        <img
+          src="images/mod1-font-stack.png"
+          alt="module 1 font stack"
+          class="font-stack"
+        />
+        <h3>Keyboard Access</h3>
+        <div class="tests-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <img
+                    src="images/keyboard01.jpg"
+                    alt="keyboard access screenshot part a"
+                    class="tests-img"
+                  />
+                </th>
+                <th>
+                  <img
+                    src="images/keyboard02.jpg"
+                    alt="keyboard access screenshot part b"
+                    class="tests-img"
+                  />
+                </th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <h3>Accessibility Tree Inspection</h3>
+        <p><strong>Figure</strong></p>
+        <img
+          src="images/accessibility-tree-figure.jpg"
+          alt="Screenshot of a figure accessibility tree."
+        />
+        <p><strong>Table</strong></p>
+        <img
+          src="images/accessibility-tree-table.jpg"
+          alt="Screenshot of a table accessibility tree."
+        />
+        <p><strong>SVG</strong></p>
+        <img
+          src="images/accessibility-tree-svg.jpg.png"
+          alt="Screenshot of an SVG accessibility tree."
+        />
+        <h3>Image-Disabled Review</h3>
+        <img
+          src="images/no-imgs.jpg"
+          alt="Screenshot of images disabled in browser and showing only alternative text."
+          class="img-disabled"
+        />
+        <h3>Source-to-Page Spot Check</h3>
+        <img
+          src="images/source-check01.jpg"
+          alt="Screenshot of data showing rate of unemployment among men and women ages 25 and up with a bachelors degree or higher."
+          class="source-check"
+        />
+        <a href="https://data.bls.gov/toppicks?survey=ln" target="_blank"
+          >https://data.bls.gov/toppicks?survey=ln</a
+        >
+        <img
+          src="images/source-check02.png"
+          alt="Screenshot of data showing rate of unemployment among men and women ages 25 and up with some college or an associates degree."
+          class="source-check"
+        />
+        <a href="https://data.bls.gov/toppicks?survey=ln" target="_blank"
+          >https://data.bls.gov/toppicks?survey=ln</a
+        >
+        <img
+          src="images/source-check03.png"
+          alt="Screenshot of data showing rate of unemployment among men and women ages 25 and up with high school diploma and no college."
+          class="source-check"
+        />
+        <a href="https://data.bls.gov/toppicks?survey=ln" target="_blank"
+          >https://data.bls.gov/toppicks?survey=ln</a
+        >
+        <div class="disclosure-highlight">
+          <h2 class="disclosure">A.I. Disclosure</h2>
+          <p class="disclosure">No A.I. used.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
